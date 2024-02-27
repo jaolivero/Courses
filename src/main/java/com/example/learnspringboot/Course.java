@@ -3,7 +3,7 @@ package com.example.learnspringboot;
 public class Course {
     private long id;
     private String name;
-    private String author;
+    private final String author;
 
     public Course(long id, String name, String author) {
         this.id = id;
